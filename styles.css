@@ -33,6 +33,10 @@ html {
   width: 7%;
 }
 
+.navigation-bar {
+  display: flex;
+}
+
 .navigation-bar ol {
   display: flex;
   list-style-type: none;
@@ -40,9 +44,10 @@ html {
 }
 
 .navigation-bar li {
-  padding: 0 20px;
+  margin: 0 20px;
   font-size: 1.5rem;
   font-weight: bolder;
+  border-bottom: white solid 2px;
 }
 
 .navigation-bar li:hover {
@@ -54,9 +59,9 @@ html {
   background-color: white;
   border: solid 2px #ed6436;
   border-radius: 0 20px 20px 20px;
-  padding: 10px;
   font-family: inherit;
   font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 .navigation-bar button:hover {
@@ -94,7 +99,7 @@ html {
   font-size: inherit;
   font-weight: bolder;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 15px;
   border: none;
   background-color: #ed6436;
