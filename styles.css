@@ -42,6 +42,7 @@ html {
   list-style-type: none;
   align-items: center;
 }
+
 .navigation-bar li {
   margin: 0 20px;
   font-size: 1.5rem;
@@ -128,3 +129,5 @@ html {
   border-radius: 40px;
   object-fit: cover;
 }
+
+/*# sourceMappingURL=styles.css.map */
