@@ -16,6 +16,12 @@ html {
 
 .main {
   padding: 30px;
+  align-items: center;
+  flex: 1;
+}
+
+.head-title h1 {
+  color: #ed6436;
 }
 
 .gallery-head {
@@ -25,11 +31,17 @@ html {
 
 .main-gallery {
   display: flex;
+  margin: 0;
+  justify-content: space-around;
 }
 
-.main-gallery img {
+.gallery-container {
   flex: 1;
-  object-fit: cover;
+  padding: 20px;
+}
+
+.gallery-container img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
