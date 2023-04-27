@@ -1,3 +1,33 @@
 * {
   box-sizing: border-box;
 }
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  padding: 30px;
+}
+
+.gallery-head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-gallery {
+  display: flex;
+}
+
+.main-gallery img {
+  flex: 1;
+  object-fit: cover;
+}
