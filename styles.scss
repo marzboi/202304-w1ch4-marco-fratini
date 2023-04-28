@@ -120,6 +120,7 @@ html {
 .gallery-container {
   flex: 1;
   padding: 20px;
+  flex-basis: 5%;
 }
 
 .gallery-container img {
@@ -127,4 +128,62 @@ html {
   height: 180%;
   border-radius: 40px;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+
+  .header-bar img {
+    height: 10%;
+    width: 10%;
+  }
+
+  .navigation-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation-bar ol {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation-bar li {
+    margin: 10px 0;
+    border-bottom: none;
+  }
+
+  .navigation-bar button {
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .head-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .head-title h2 {
+    font-size: 3rem;
+  }
+
+  .head-button {
+    padding-right: 0;
+  }
+
+  .head-button button {
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .gallery-container {
+    flex-basis: 100%;
+    padding: 10px;
+  }
+
+  .gallery-container img {
+    height: auto;
+  }
 }
