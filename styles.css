@@ -150,6 +150,7 @@ html {
   .navigation-bar li {
     margin: 10px 0;
     border-bottom: none;
+    border-bottom: white 2px solid;
   }
   .navigation-bar button {
     border-radius: 20px;
@@ -174,7 +175,7 @@ html {
     padding: 10px;
   }
   .gallery-container img {
-    height: auto;
+    height: 100%;
   }
 }
 

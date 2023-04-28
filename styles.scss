@@ -153,6 +153,7 @@ html {
   .navigation-bar li {
     margin: 10px 0;
     border-bottom: none;
+    border-bottom: white 2px solid;
   }
 
   .navigation-bar button {
@@ -184,6 +185,6 @@ html {
   }
 
   .gallery-container img {
-    height: auto;
+    height: 100%;
   }
 }
